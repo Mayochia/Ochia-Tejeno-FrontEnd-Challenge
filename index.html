@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+  <link rel="stylesheet" type="text/css" href="style.css">
+        
+  <title>Frontend Mentor | Age calculator app</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+    .attribution {
+      font-size: 12px;
+      position: absolute;
+      bottom: 0;
+      width: 100%;
+      text-align: center;
+      font-family: "Poppins";
+     }
+    .attribution a {
+      color: hsl(228, 45%, 44%); }
+  </style>
+</head>
+<body>
+
+
+
+<div class="container" id = "main">
+  <br>
+  <br>
+  <div class="form-container">
+    <form action="php_FILENAMEHERE.php" method="post">
+      <div class ="input-container">
+        <div class ="inputs">
+          &nbsp &nbsp &nbsp &nbsp <label>DAY</label><br>
+          &nbsp &nbsp &nbsp &nbsp <input type="text" placeholder="DD" required>
+        </div>  
+        <div class ="inputs">
+          &nbsp &nbsp <label>MONTH</label><br>
+          &nbsp &nbsp <input type="text" placeholder="MM" required>
+        </div> 
+        <div class ="inputs">
+        <label>YEAR</label><br>
+        <input type="text" placeholder="YYYY" required>
+        </div>
+      </div>
+    </form>
+  </div>
+
+ 
+
+  <br>
+  <div class="icon_over_line">
+    <div class="line"></div>
+    <button type="button" class="button">
+      <img height="50%" src="icon-arrow.svg" alt="Button Image">
+    </button>
+  </div>
+ 
+
+  <br>
+
+  <div class="outputs">
+    &nbsp &nbsp <div class ="jsOut">--</div> years<br>
+    &nbsp &nbsp <div class ="jsOut">--</div> months<br>
+    &nbsp &nbsp <div class ="jsOut">--</div> days<br> 
+  </div>
+  
+  <br><br><br><br><br>
+
+</div>
+
+
+  <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Coded by <a href="#">Your Name Here</a>.
+  </div>
+</body>
+</html>
